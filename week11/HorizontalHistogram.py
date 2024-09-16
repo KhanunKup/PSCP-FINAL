@@ -2,10 +2,8 @@
 def main():
     """main"""
     dic_alpha = {}
-    sorted_text = []
     text = input()
-    for i in text:
-        sorted_text.append(i)
+    sorted_text = list(text)
     sorted_text.sort()
     sorted_text.sort(key=str.isupper) # upper behide lowwer
     for i in sorted_text:
