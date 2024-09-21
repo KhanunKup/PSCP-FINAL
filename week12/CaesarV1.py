@@ -8,15 +8,15 @@ def main():
         if i.isalpha():
             if i.isupper():
                 result = ord(i) + encode
-                if result >90:
+                while result >90:
                     result -= 26
-                elif result <65:
+                while result <65:
                     result += 26
             if i.islower():
                 result = ord(i) + encode
-                if result >122:
+                while result >122:
                     result -= 26
-                elif result <97:
+                while result <97:
                     result += 26
         else:
             result = ord(i)
