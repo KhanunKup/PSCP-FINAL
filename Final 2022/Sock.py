@@ -24,7 +24,6 @@ def main():
         print("None")
         print(count)
         return
-    else:   
-        print(x)
-        print(count)
+    print(x)
+    print(count)
 main()
