@@ -2,7 +2,7 @@
 def main():
     """main"""
     data = input()
-    twilight = ["CHAIN CAT","GREAT WHITE","GUMMY","BLUE","MAKO"]
+    twilight = ["CHAIN CATSHARK","GREAT WHITE","GUMMY","BLUE","MAKO"]
     midnight = ["FRILLED","GOBLIN","SIXGILL","GREENLAND","COOKIECUTTER"]
     abyssal = ["MEGAMOUTH"]
     if "SHARK" not in data:
