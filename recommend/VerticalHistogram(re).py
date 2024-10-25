@@ -20,5 +20,6 @@ def main():
                 print(" ", end=" ")
         print()
     print("    ",end = "")
-    print(" ".join(data))
+    print(*data)
+    # print(" ".join(data))
 main()
